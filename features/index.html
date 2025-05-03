@@ -233,6 +233,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Features
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -244,6 +257,79 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-application-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏠 Main Application View
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#molecule-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔎 Molecule Search
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#molecule-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 Molecule Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-driven-similarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 AI-Driven Similarity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Dataset
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -313,6 +399,68 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-application-view" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏠 Main Application View
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#molecule-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔎 Molecule Search
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#molecule-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎨 Molecule Visualization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-driven-similarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 AI-Driven Similarity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      📦 Dataset
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -328,14 +476,83 @@
 
 
 <h1 id="features">🔍 Features</h1>
+<hr />
+<h2 id="authentication">🔐 Authentication</h2>
+<p>MolBase offers a secure and seamless login experience via:</p>
 <ul>
-<li><strong>Multi-mode Search</strong>: Exact, substructure (RDKit), and neural similarity using GNN embeddings.</li>
-<li><strong>RDKit + pgvector + PostgreSQL</strong>: Ultra-fast molecular search backend.</li>
-<li><strong>Frontend</strong>: Built with React + Material UI with real-time filtering and pagination.</li>
-<li><strong>Sketching</strong>: Supports molecule drawing via Ketcher, with conversion to molfile for search.</li>
-<li><strong>Authentication</strong>: Secure OAuth login + 2FA integration.</li>
-<li><strong>Scalable</strong>: Fully containerized with Docker Compose, Redis, Caddy, and FastAPI/Django backend.</li>
+<li>
+<p>OAuth login via Google, Microsoft, Facebook, or Github<br />
+    <img src="/media/login_modal.gif" alt="Login Modal Demo"
+        style="height: 500px; width: auto;  border-radius: 12px; margin: 1.5rem 0;" /></p>
+</li>
+<li>
+<p>Email-based registration<br />
+    <img src="/media/email_signup.gif" alt="Email Registration Demo"
+       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
+</li>
+<li>
+<p>Email verification for user to be activated<br />
+    <img src="/media/email_verification.gif" alt="Email Verification Demo"
+       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
+</li>
+<li>
+<p>Username based login
+    <img src="/media/username_login.gif" alt="Username Login Demo"
+        style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
+</li>
+<li>
+<p>Optional 2FA for enhanced security<br />
+    <img src="/media/2fa_setup.gif" alt="2FA Setup Demo"
+       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
+</li>
+<li>
+<p>Email based password reset
+    <img src="/media/forgot_pass.gif" alt="Forgot Password Demo"
+       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
+</li>
+<li>
+<p>Guest user login session</p>
+</li>
 </ul>
+<hr />
+<h2 id="main-application-view">🏠 Main Application View</h2>
+<p>After login, users land on the Molecule Search Dashboard.</p>
+<ul>
+<li>Search bar with toggle for exact, substructure, and similarity modes</li>
+<li>Load More results system with real-time filters</li>
+<li>Dark mode enabled by default for improved focus</li>
+</ul>
+<p><img alt="Main View" src="media/main_app_view.gif" /></p>
+<hr />
+<h2 id="molecule-search">🔎 Molecule Search</h2>
+<ul>
+<li><strong>Substructure Search</strong> using RDKit and PostgreSQL</li>
+<li><strong>Similarity Search</strong> using vector embeddings and pgvector</li>
+<li>Results are ranked and clickable for details</li>
+</ul>
+<p><img alt="Substructure Search" src="media/substructure_demo.gif" /></p>
+<hr />
+<h2 id="molecule-visualization">🎨 Molecule Visualization</h2>
+<ul>
+<li>Each result displays a live SVG rendering using OpenChemLib</li>
+<li>Click to view metadata, SMILES, or copy structure</li>
+<li>Tooltips for long names and tag displays</li>
+</ul>
+<p><img alt="SVG Rendering" src="media/svg_preview.gif" /></p>
+<hr />
+<h2 id="ai-driven-similarity">🧠 AI-Driven Similarity</h2>
+<ul>
+<li>Uses GNN with SimCLR-style training</li>
+<li>Embeddings stored in <code>pgvector</code> for lightning-fast comparisons</li>
+<li>Includes top-k similarity ranking vs. anchor molecule</li>
+</ul>
+<hr />
+<h2 id="dataset">📦 Dataset</h2>
+<ul>
+<li>6M+ molecules imported from PubChem</li>
+<li>Filterable by tags, source, weight, or structure</li>
+</ul>
+<hr />
 
 
 
