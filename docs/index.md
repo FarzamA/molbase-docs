@@ -13,21 +13,25 @@ Welcome to the public documentation for **MolBase** — a hybrid AI + RDKit-base
 MolBase is a full-stack chemical search platform that combines traditional RDKit-based structure search with neural embedding similarity powered by a custom Graph Neural Network (GNN).
 
 It supports:
-- Substructure, exact, and neural similarity search
-- Molecule visualization and sketching
-- High-performance GPU-enabled backend
-- Secure authentication (OAuth, 2FA)
+
+- Substructure, GNN powered substructure, exact, and similarity search
+- Explore a dataset of over **6 million molecules** imported from **PubChem**
+- Sketch or input molecule structures to search
+- Compare traditional RDKit vs. learned GNN-based search
+- Visualize results with embedded SVG renderers
 
 ---
 
 ## 📷 Demo
 
-![Search Demo](media/search_demo.gif)
+GNN powered substructure search on a database of over **6 million molecules** returning instantaneous results
+
+![Search Demo](media/gnn_struct_search.gif)
 
 ---
 
 ## 📁 Docs
 
-- [Features](features.md)
-- [Architecture](architecture.md)
-- [Setup Instructions](setup.md)
+- [Features](features.md) – Core functionality and tools used
+- [Architecture](architecture.md) – How the platform is built
+- [Setup Instructions](setup.md) – How it runs in Docker
