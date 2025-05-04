@@ -260,9 +260,41 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 
 ## 🧪 Molecule Registration
 
-- Users can submit and register their own molecules into the central database
-- Molecular properties are auto-generated using Python’s RDKit backend during registration
-- Each user retains full control over their own molecules with the ability to edit or delete entries
+??? package-plus "Users can submit and register their own molecules into the central database"
+    <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="./../media/mp4/registration_demo.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 100%; border-radius: 12px;">
+        </video>
+    </div>
+
+??? drill "Molecular properties are auto-generated using Python’s RDKit backend during registration"
+    <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="./../media/mp4/auto_gen.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 100%; border-radius: 12px;">
+        </video>
+    </div>
+
+??? notebook-pen "Each user retains full control over their own molecules with the ability to edit or delete entries"
+    <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="./../media/mp4/edit_and_del_demo.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 100%; border-radius: 12px;">
+        </video>
+    </div>
 - Any edits to the molecule structure trigger automatic recomputation of RDKit-based descriptors to ensure data accuracy
 
 ---
