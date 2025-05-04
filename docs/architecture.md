@@ -8,9 +8,9 @@ MolBase follows a modular architecture designed for scalability and GPU accelera
 - **Backend**: Hybrid .NET + FastAPI
 - **Database**: PostgreSQL with RDKit & pgvector
 - **GNN Model**: PyTorch-based molecular embedding
-- **Worker**: Celery tasks for parsing, import, training, etc.
+- **Task Runner**: FastAPI + async Python scripts for parsing, import, and neural training
 - **Reverse Proxy**: Caddy with Docker Compose
 
-## Diagram
+<!-- ## Diagram
 
-*Insert architecture diagram here (optional)*
+*Insert architecture diagram here (optional)* -->

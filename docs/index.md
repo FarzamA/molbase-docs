@@ -26,8 +26,8 @@ It supports:
 
 GNN powered similarity search on a database of over **6 million molecules** returning instantaneous results
 
-??? search "Demo"
-    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+??? search-check "Demo"
+    <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
             src="/media/mp4/gnn_sim_search.mp4" 
             autoplay 
