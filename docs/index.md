@@ -29,7 +29,7 @@ GNN powered similarity search on a database of over **6 million molecules** retu
 ??? search-check "Demo"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/gnn_sim_search.mp4" 
+            src="media/mp4/gnn_sim_search.mp4" 
             autoplay 
             muted 
             playsinline 

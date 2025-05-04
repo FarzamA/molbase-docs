@@ -9,7 +9,7 @@ MolBase provides a secure and seamless authentication system with support for:
 ??? o-auth "OAuth login via Google, Microsoft, Facebook, or Github"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/login_modal.mp4" 
+            src="./../media/mp4/login_modal.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -21,7 +21,7 @@ MolBase provides a secure and seamless authentication system with support for:
 ??? e-mail-registration "Email-based registration"  
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/email_signup.mp4" 
+            src="./../media/mp4/email_signup.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -33,7 +33,7 @@ MolBase provides a secure and seamless authentication system with support for:
 ??? e-mail-verification "Email verification for user to be activated "  
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/email_verification.mp4" 
+            src="./../media/mp4/email_verification.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -45,7 +45,7 @@ MolBase provides a secure and seamless authentication system with support for:
 ??? user-login "Username based login"  
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/username_login.mp4" 
+            src="./../media/mp4/username_login.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -57,7 +57,7 @@ MolBase provides a secure and seamless authentication system with support for:
 ??? qr-code "Two-Factor Authentication (2FA) for enhanced security (optional)"  
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/2fa_setup.mp4" 
+            src="./../media/mp4/2fa_setup.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -69,7 +69,7 @@ MolBase provides a secure and seamless authentication system with support for:
 ??? e-mail-verification "Email-based password reset"  
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/forgot_pass.mp4" 
+            src="./../media/mp4/forgot_pass.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -88,7 +88,7 @@ MolBase supports guest login for users who wish to explore without creating an a
 - No data persistence — session data is discarded upon logout
 - Automatic cleanup — molecules created during a guest session are deleted on logout
 
-![Guest Session Demo](/media/png/guest_reg_mol.png)
+![Guest Session Demo](media/png/guest_reg_mol.png)
 
 ---
 
@@ -99,7 +99,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? sun-moon "Sleek ultra-dark mode enabled by default, with an optional dark-blue theme for visual flexibility"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/dark_mode_demo.mp4" 
+            src="./../media/mp4/dark_mode_demo.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -111,7 +111,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? notebook-pen "Integrated Ketcher sketcher for structure-based searches"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/ketcher_demo.mp4" 
+            src="./../media/mp4/ketcher_demo.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -122,7 +122,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? search "Support for **Exact**, **Substructure**, **Similarity** and **AI-powered GNN Similarity** search modes"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/search_options.mp4" 
+            src="./../media/mp4/search_options.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -134,7 +134,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? loader "Load-on-demand molecule results with responsive, real-time filtering"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/loading_molecules.mp4" 
+            src="./../media/mp4/loading_molecules.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -151,7 +151,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? search "Exact Match Search using Canonical SMILES for uniqueness"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/exact_match_demo.mp4" 
+            src="./../media/mp4/exact_match_demo.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -163,7 +163,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? binoculars "**Substructure Search** using RDKit and PostgreSQL"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/substructure_demo.mp4" 
+            src="./../media/mp4/substructure_demo.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -175,7 +175,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? search-code "**Similarity Search** using vector embeddings and pgvector"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/sim_search_demo.mp4" 
+            src="./../media/mp4/sim_search_demo.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -187,7 +187,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? package-search "Filtering based on current view or entire dataset"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/view_serach_demo.mp4" 
+            src="./../media/mp4/view_serach_demo.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -199,7 +199,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? move-horizontal "Resizable columns for better view of search details"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/resize_columns.mp4" 
+            src="./../media/mp4/resize_columns.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -215,7 +215,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? eye "Each result displays a live SVG rendering using OpenChemLib"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/live_svg_render.mp4" 
+            src="./../media/mp4/live_svg_render.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -227,7 +227,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? view "Click to view metadata, SMILES, or copy structure"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/view_metadata.mp4" 
+            src="./../media/mp4/view_metadata.mp4" 
             autoplay 
             muted 
             playsinline 
@@ -239,7 +239,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 ??? wrench "Tooltips for long names and tag displays"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
-            src="/media/mp4/tooltips.mp4" 
+            src="./../media/mp4/tooltips.mp4" 
             autoplay 
             muted 
             playsinline 

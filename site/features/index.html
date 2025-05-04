@@ -46,6 +46,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/custom-admonitions.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -283,6 +285,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#guest-user-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      👤 Guest User Functionality
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#main-application-view" class="md-nav__link">
     <span class="md-ellipsis">
       🏠 Main Application View
@@ -313,6 +324,15 @@
   <a href="#ai-driven-similarity" class="md-nav__link">
     <span class="md-ellipsis">
       🧠 AI-Driven Similarity
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#molecule-registration" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Molecule Registration
     </span>
   </a>
   
@@ -415,6 +435,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#guest-user-functionality" class="md-nav__link">
+    <span class="md-ellipsis">
+      👤 Guest User Functionality
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#main-application-view" class="md-nav__link">
     <span class="md-ellipsis">
       🏠 Main Application View
@@ -451,6 +480,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#molecule-registration" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧪 Molecule Registration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#dataset" class="md-nav__link">
     <span class="md-ellipsis">
       📦 Dataset
@@ -478,79 +516,278 @@
 <h1 id="features">🔍 Features</h1>
 <hr />
 <h2 id="authentication">🔐 Authentication</h2>
-<p>MolBase offers a secure and seamless login experience via:</p>
+<p>MolBase provides a secure and seamless authentication system with support for:</p>
+<details class="o-auth">
+<summary>OAuth login via Google, Microsoft, Facebook, or Github</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/login_modal.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 400px; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="e-mail-registration">
+<summary>Email-based registration</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/email_signup.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 400px; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="e-mail-verification">
+<summary>Email verification for user to be activated </summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/email_verification.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 400px; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="user-login">
+<summary>Username based login</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/username_login.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 400px; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="qr-code">
+<summary>Two-Factor Authentication (2FA) for enhanced security (optional)</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/2fa_setup.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 400px; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="e-mail-verification">
+<summary>Email-based password reset</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/forgot_pass.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 400px; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<hr />
+<h2 id="guest-user-functionality">👤 Guest User Functionality</h2>
+<p>MolBase supports guest login for users who wish to explore without creating an account:</p>
 <ul>
-<li>
-<p>OAuth login via Google, Microsoft, Facebook, or Github<br />
-    <img src="/media/login_modal.gif" alt="Login Modal Demo"
-        style="height: 500px; width: auto;  border-radius: 12px; margin: 1.5rem 0;" /></p>
-</li>
-<li>
-<p>Email-based registration<br />
-    <img src="/media/email_signup.gif" alt="Email Registration Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
-</li>
-<li>
-<p>Email verification for user to be activated<br />
-    <img src="/media/email_verification.gif" alt="Email Verification Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
-</li>
-<li>
-<p>Username based login
-    <img src="/media/username_login.gif" alt="Username Login Demo"
-        style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
-</li>
-<li>
-<p>Optional 2FA for enhanced security<br />
-    <img src="/media/2fa_setup.gif" alt="2FA Setup Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
-</li>
-<li>
-<p>Email based password reset
-    <img src="/media/forgot_pass.gif" alt="Forgot Password Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" /></p>
-</li>
-<li>
-<p>Guest user login session</p>
-</li>
+<li>Temporary session access</li>
+<li>No data persistence — session data is discarded upon logout</li>
+<li>Automatic cleanup — molecules created during a guest session are deleted on logout</li>
 </ul>
+<p><img alt="Guest Session Demo" src="../media/png/guest_reg_mol.png" /></p>
 <hr />
 <h2 id="main-application-view">🏠 Main Application View</h2>
-<p>After login, users land on the Molecule Search Dashboard.</p>
-<ul>
-<li>Search bar with toggle for exact, substructure, and similarity modes</li>
-<li>Load More results system with real-time filters</li>
-<li>Dark mode enabled by default for improved focus</li>
-</ul>
-<p><img alt="Main View" src="media/main_app_view.gif" /></p>
+<p>Upon logging in, users are directed to the Molecule Search Dashboard, which provides a streamlined and interactive environment for molecular discovery.</p>
+<details class="sun-moon">
+<summary>Sleek ultra-dark mode enabled by default, with an optional dark-blue theme for visual flexibility</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/dark_mode_demo.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="notebook-pen">
+<summary>Integrated Ketcher sketcher for structure-based searches</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/ketcher_demo.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="search">
+<summary>Support for <strong>Exact</strong>, <strong>Substructure</strong>, <strong>Similarity</strong> and <strong>AI-powered GNN Similarity</strong> search modes</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/search_options.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="loader">
+<summary>Load-on-demand molecule results with responsive, real-time filtering</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/loading_molecules.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
 <hr />
 <h2 id="molecule-search">🔎 Molecule Search</h2>
-<ul>
-<li><strong>Substructure Search</strong> using RDKit and PostgreSQL</li>
-<li><strong>Similarity Search</strong> using vector embeddings and pgvector</li>
-<li>Results are ranked and clickable for details</li>
-</ul>
-<p><img alt="Substructure Search" src="media/substructure_demo.gif" /></p>
+<details class="search">
+<summary>Exact Match Search using Canonical SMILES for uniqueness</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/exact_match_demo.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="binoculars">
+<summary><strong>Substructure Search</strong> using RDKit and PostgreSQL</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/substructure_demo.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="search-code">
+<summary><strong>Similarity Search</strong> using vector embeddings and pgvector</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/sim_search_demo.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="package-search">
+<summary>Filtering based on current view or entire dataset</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/view_serach_demo.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="move-horizontal">
+<summary>Resizable columns for better view of search details</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/resize_columns.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
 <hr />
 <h2 id="molecule-visualization">🎨 Molecule Visualization</h2>
-<ul>
-<li>Each result displays a live SVG rendering using OpenChemLib</li>
-<li>Click to view metadata, SMILES, or copy structure</li>
-<li>Tooltips for long names and tag displays</li>
-</ul>
-<p><img alt="SVG Rendering" src="media/svg_preview.gif" /></p>
+<details class="eye">
+<summary>Each result displays a live SVG rendering using OpenChemLib</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/live_svg_render.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="view">
+<summary>Click to view metadata, SMILES, or copy structure</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/view_metadata.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
+<details class="wrench">
+<summary>Tooltips for long names and tag displays</summary>
+<p><div style="display: flex; justify-content: center; margin: 1.5rem 0;">
+    <video 
+        src="./../media/mp4/tooltips.mp4" 
+        autoplay 
+        muted 
+        playsinline 
+        loop 
+        style="max-width: 100%; border-radius: 12px;">
+    </video>
+</div></p>
+</details>
 <hr />
 <h2 id="ai-driven-similarity">🧠 AI-Driven Similarity</h2>
 <ul>
-<li>Uses GNN with SimCLR-style training</li>
+<li>Powered by a Graph Neural Network (GNN) trained using SimCLR-style contrastive learning</li>
 <li>Embeddings stored in <code>pgvector</code> for lightning-fast comparisons</li>
 <li>Includes top-k similarity ranking vs. anchor molecule</li>
+<li>Ongoing improvements are being made to enhance the precision and reliability of AI-based search results</li>
+</ul>
+<hr />
+<h2 id="molecule-registration">🧪 Molecule Registration</h2>
+<ul>
+<li>Users can submit and register their own molecules into the central database</li>
+<li>Molecular properties are auto-generated using Python’s RDKit backend during registration</li>
+<li>Each user retains full control over their own molecules with the ability to edit or delete entries</li>
+<li>Any edits trigger automatic recomputation of RDKit-based descriptors to ensure data accuracy</li>
 </ul>
 <hr />
 <h2 id="dataset">📦 Dataset</h2>
 <ul>
 <li>6M+ molecules imported from PubChem</li>
-<li>Filterable by tags, source, weight, or structure</li>
+<li>Filterable by tags, source, name, weight, user or structure</li>
 </ul>
 <hr />
 
@@ -605,6 +842,8 @@
     
     
       <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../javascripts/auto-play-video.js"></script>
       
     
   </body>
