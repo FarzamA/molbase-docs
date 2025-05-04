@@ -247,14 +247,6 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
             style="max-width: 100%; border-radius: 12px;">
         </video>
     </div>
----
-
-## 🧠 AI-Driven Similarity
-
-- Powered by a Graph Neural Network (GNN) trained using SimCLR-style contrastive learning
-- Embeddings stored in `pgvector` for lightning-fast comparisons
-- Includes top-k similarity ranking vs. anchor molecule
-- Ongoing improvements are being made to enhance the precision and reliability of AI-based search results
 
 ---
 
@@ -296,6 +288,15 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
         </video>
     </div>
 - Any edits to the molecule structure trigger automatic recomputation of RDKit-based descriptors to ensure data accuracy
+
+---
+
+## 🧠 AI-Driven Similarity
+
+- Powered by a Graph Neural Network (GNN) trained using SimCLR-style contrastive learning
+- Embeddings stored in `pgvector` for lightning-fast comparisons
+- Includes top-k similarity ranking vs. anchor molecule
+- Ongoing improvements are being made to enhance the precision and reliability of AI-based search results
 
 ---
 
