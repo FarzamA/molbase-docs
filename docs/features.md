@@ -96,7 +96,7 @@ MolBase supports guest login for users who wish to explore without creating an a
 
 Upon logging in, users are directed to the Molecule Search Dashboard, which provides a streamlined and interactive environment for molecular discovery.
 
-??? sun-moon "Sleek ultra-dark mode enabled by default, with an optional dark-blue theme for visual flexibility"
+??? sun-moon "Sleek dark-blue  mode enabled by default, with an optional ultra-dark theme for visual flexibility"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
             src="./../media/mp4/dark_mode_demo.mp4" 
