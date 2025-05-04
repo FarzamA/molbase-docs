@@ -14,7 +14,7 @@ MolBase is a full-stack chemical search platform that combines traditional RDKit
 
 It supports:
 
-- Substructure, GNN powered substructure, exact, and similarity search
+- Substructure, exact, GNN powered similarity and RDKit similarity search
 - Explore a dataset of over **6 million molecules** imported from **PubChem**
 - Sketch or input molecule structures to search
 - Compare traditional RDKit vs. learned GNN-based search
