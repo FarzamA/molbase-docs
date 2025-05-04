@@ -263,7 +263,7 @@ Upon logging in, users are directed to the Molecule Search Dashboard, which prov
 - Users can submit and register their own molecules into the central database
 - Molecular properties are auto-generated using Python’s RDKit backend during registration
 - Each user retains full control over their own molecules with the ability to edit or delete entries
-- Any edits trigger automatic recomputation of RDKit-based descriptors to ensure data accuracy
+- Any edits to the molecule structure trigger automatic recomputation of RDKit-based descriptors to ensure data accuracy
 
 ---
 
