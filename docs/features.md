@@ -4,46 +4,107 @@
 
 ## 🔐 Authentication
 
-MolBase offers a secure and seamless login experience via:
+MolBase provides a secure and seamless authentication system with support for:
 
-- OAuth login via Google, Microsoft, Facebook, or Github  
-    <img src="/media/login_modal.gif" alt="Login Modal Demo"
-        style="height: 500px; width: auto;  border-radius: 12px; margin: 1.5rem 0;" />
+??? o-auth "OAuth login via Google, Microsoft, Facebook, or Github"
+    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="/media/mp4/login_modal.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 400px; border-radius: 12px;">
+        </video>
+    </div>
 
-- Email-based registration  
-    <img src="/media/email_signup.gif" alt="Email Registration Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" />
+??? e-mail-registration "Email-based registration"  
+    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="/media/mp4/email_signup.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 400px; border-radius: 12px;">
+        </video>
+    </div>
 
-- Email verification for user to be activated  
-    <img src="/media/email_verification.gif" alt="Email Verification Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" />
+??? e-mail-verification "Email verification for user to be activated "  
+    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="/media/mp4/email_verification.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 400px; border-radius: 12px;">
+        </video>
+    </div>
 
-- Username based login
-    <img src="/media/username_login.gif" alt="Username Login Demo"
-        style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" />
+??? user-login "Username based login"  
+    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="/media/mp4/username_login.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 400px; border-radius: 12px;">
+        </video>
+    </div>
 
-- Optional 2FA for enhanced security  
-    <img src="/media/2fa_setup.gif" alt="2FA Setup Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" />
+??? qr-code "Two-Factor Authentication (2FA) for enhanced security (optional)"  
+    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="/media/mp4/2fa_setup.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 400px; border-radius: 12px;">
+        </video>
+    </div>
 
-- Email based password reset
-    <img src="/media/forgot_pass.gif" alt="Forgot Password Demo"
-       style="max-width: 400px; display: block; margin-top: 0.5rem; border-radius: 8px;" />
+??? e-mail-verification "Email-based password reset"  
+    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="/media/mp4/forgot_pass.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 400px; border-radius: 12px;">
+        </video>
+    </div>
 
-- Guest user login session
+---
 
+## 👤 Guest User Functionality
+
+MolBase supports guest login for users who wish to explore without creating an account:
+
+- Temporary session access
+- No data persistence — session data is discarded upon logout
+- Automatic cleanup — molecules created during a guest session are deleted on logout
+
+![Guest Session Demo](/media/png/guest_reg_mol.png)
 
 ---
 
 ## 🏠 Main Application View
 
-After login, users land on the Molecule Search Dashboard.
+Upon logging in, users are directed to the Molecule Search Dashboard, which provides a streamlined and interactive environment for molecular discovery.
 
-- Search bar with toggle for exact, substructure, and similarity modes
-- Load More results system with real-time filters
-- Dark mode enabled by default for improved focus
+- Sleek ultra-dark mode enabled by default, with an optional dark-blue theme for visual flexibility
+    <img src="/media/dark_mode_demo.gif" alt="Ultra Dark Mode Demo"
+        style="max-height: 400px; width: auto; border-radius: 12px; margin: 1.5rem 0;" />
 
-![Main View](media/main_app_view.gif)
+- Integrated Ketcher sketcher for structure-based searches
+- Support for **Exact**, **Substructure**, **Similarity** and **AI-powered GNN Similarity** search modes
+- Load-on-demand molecule results with responsive, real-time filtering
+
+<!-- ![Main View](media/main_app_view.gif) -->
 
 ---
 
@@ -78,6 +139,6 @@ After login, users land on the Molecule Search Dashboard.
 ## 📦 Dataset
 
 - 6M+ molecules imported from PubChem
-- Filterable by tags, source, weight, or structure
+- Filterable by tags, source, name, weight, user or structure
 
 ---

@@ -24,9 +24,19 @@ It supports:
 
 ## 📷 Demo
 
-GNN powered substructure search on a database of over **6 million molecules** returning instantaneous results
+GNN powered similarity search on a database of over **6 million molecules** returning instantaneous results
 
-![Search Demo](media/gnn_struct_search.gif)
+??? search "Demo"
+    <div class="dropdown-content" style="display: flex; justify-content: center; margin: 1.5rem 0;">
+        <video 
+            src="/media/mp4/gnn_sim_search.mp4" 
+            autoplay 
+            muted 
+            playsinline 
+            loop 
+            style="max-width: 100%; border-radius: 12px;">
+        </video>
+    </div>
 
 ---
 
