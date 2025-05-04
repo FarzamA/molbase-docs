@@ -10,7 +10,7 @@
 ## Local Deployment (Optional)
 
 ```
-git clone https://github.com/youruser/molbase-docs
+git clone https://github.com/FarzamA/molbase
 cd molbase
 docker compose up --build
 ```
