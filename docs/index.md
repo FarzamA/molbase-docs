@@ -4,7 +4,7 @@ Welcome to the public documentation for **MolBase** — a hybrid AI + RDKit-base
 
 📌 **Note:** This project is home-hosted. The live demo is generally available between **9 AM and 5 PM EST**. If the link is temporarily down, please refer to this documentation to explore features, architecture, and usage.
 
-👉 [Live Demo](https://molbase.duckdns.org/)
+👉 [Live Site](https://molbase.duckdns.org/)
 
 ---
 
@@ -26,7 +26,7 @@ It supports:
 
 GNN powered similarity search on a database of over **6 million molecules** returning instantaneous results
 
-??? search-check "Demo"
+??? search-check "Search Demo"
     <div style="display: flex; justify-content: center; margin: 1.5rem 0;">
         <video 
             src="media/mp4/gnn_sim_search.mp4" 
