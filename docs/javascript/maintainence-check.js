@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("status/status.txt")
     .then(res => res.text())
     .then(text => {
-      if (text.includes("200 OK")) {
+      if (text.includes("HTTP/2 200")) {
         statusEl.textContent = "🟢 Online";
         statusEl.style.color = "limegreen";
       } else {
