@@ -1,34 +1,35 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const urlToCheck = "https://molbase.duckdns.org/login";
   const statusEl = document.getElementById("app-status-indicator");
   if (!statusEl) return;
 
-  statusEl.style.fontWeight = "bold";
-  statusEl.style.marginLeft = "10px";
-
-  function updateStatus(indicator, color, label) {
-    statusEl.textContent = `${indicator} ${label}`;
+  function updateStatus(icon, color, label) {
+    statusEl.textContent = `${icon} ${label}`;
     statusEl.style.color = color;
+    statusEl.style.fontWeight = "bold";
+    statusEl.style.marginLeft = "10px";
   }
 
-  async function checkStatus() {
-    updateStatus("⏳", "gray", "Checking status...");
+  function checkStatus() {
+    updateStatus("⏳", "gray", "Checking...");
 
-    try {
-      const res = await fetch(urlToCheck, { method: "GET" });
+    const iframe = document.createElement("iframe");
+    iframe.style.display = "none";
+    iframe.src = "https://docgenai.duckdns.org/login";
 
-      // Handle specific HTTP status codes
-      if (!res.ok || res.status >= 400) {
-        updateStatus("🚧", "orange", "Under Construction");
-      } else {
-        updateStatus("🟢", "limegreen", "Online");
-      }
-    } catch (err) {
-      // Handle network errors
+    iframe.onload = () => {
+      updateStatus("🟢", "limegreen", "Online");
+      document.body.removeChild(iframe);
+    };
+
+    iframe.onerror = () => {
       updateStatus("🚧", "orange", "Under Construction");
-    }
+      document.body.removeChild(iframe);
+    };
+
+    // Add it to the DOM to trigger the load
+    document.body.appendChild(iframe);
   }
 
   checkStatus();
-  setInterval(checkStatus, 60_000);
+  setInterval(checkStatus, 30_000);
 });
