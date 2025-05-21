@@ -4,7 +4,8 @@ Welcome to the public documentation for **MolBase** — a hybrid AI + RDKit-base
 
 📌 **Note:** This project is home-hosted. The live demo is generally available **Monday - Friday between 9 AM and 5 PM EST**. If the link is temporarily down, please refer to this documentation to explore features, architecture, and usage.
 
-👉 [Live Site](https://molbase.duckdns.org/)
+👉 [Live Site](https://molbase.duckdns.org/login)
+<span id="app-status-indicator" style="margin-left: 10px; font-weight: bold;"></span>
 
 ---
 
