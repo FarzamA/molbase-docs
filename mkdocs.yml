@@ -14,6 +14,4 @@ markdown_extensions:
   - pymdownx.superfences
 extra_css:
   - stylesheets/custom-admonitions.css
-extra_javascript:
-  - javascripts/auto-play-video.js
 
